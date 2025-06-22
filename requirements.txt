@@ -1,0 +1,10 @@
+selenium
+beautifulsoup4
+requests
+python-docx
+aspose-words
+PyPDF2
+img2table
+pytesseract
+Pillow
+numpy
