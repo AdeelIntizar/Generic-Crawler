@@ -12,7 +12,6 @@ from selenium.webdriver.chrome.options import Options
 import time
 from docx import Document
 import os
-import aspose.words as aw
 import requests
 from PyPDF2 import PdfReader
 from io import BytesIO
@@ -24,10 +23,9 @@ import numpy as np
 from PIL import Image
 from io import BytesIO
 from urllib.request import urlopen
-from PIL import Image
-from io import BytesIO
-from img2table.document import Image as img2table_Image
-import pytesseract
+
+
+
 
 def extract_content_from_image(image_path):
     image_flag = None
